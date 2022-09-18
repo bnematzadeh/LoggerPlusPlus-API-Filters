@@ -1,0 +1,1 @@
+# LoggerPlusPlus-For-Bug-Bounty-Hunters
