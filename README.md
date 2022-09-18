@@ -92,5 +92,8 @@ Logger++ is a multithreaded logging extension for Burp Suite. This extension all
       - DOS
         - REST: ```Request.HasGetParam == true AND Request.Query CONTAINS "limit"```
         - GraphQL: ```Request.Body CONTAINS "limit"```
+   - XSS
+      - Check for reflected parameters 
+        - ```Response.Reflections > 0```
    
         
