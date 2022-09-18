@@ -28,7 +28,7 @@ Logger++ is a multithreaded logging extension for Burp Suite. This extension all
       - ```Request.Method IN ["POST","PUT","DELETE"]```
     - API Endpoint + Different API Operations 
       - Example: GET /v1/users 
-        - Filter all GET Requests in this API: ```Request.Method == "GET" AND Request.Path CONTAINS "v1"```
+        - Filter GET Requests in this API: ```Request.Method == "GET" AND Request.Path CONTAINS "v1"```
         
   - GraphQL 
     - Read (Query)
