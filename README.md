@@ -58,7 +58,7 @@ Logger++ is a multithreaded logging extension for Burp Suite. This extension all
        - 2. Find the object properties from GET Requests. Use the following filter to do this: 
           - ```Request.Method == "GET" AND Request.Path CONTAINS "ResourceName"```
             - Example: ```Request.Method == "GET" AND Request.Path CONTAINS "user"```
-       - 3. Add object properties from the previous step in related POST/PUT requests. Use the following filter: 
+       - 3. Add object properties from the previous step to related POST/PUT requests. Use the following filter: 
           - ```Request.Method IN ["POST","PUT"]```
    
    - Injection and Broken Object Level 
