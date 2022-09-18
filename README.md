@@ -1,1 +1,1 @@
-# LoggerPlusPlus-For-Bug-Bounty-Hunters
+# LoggerPlusPlus Filters for Bug Bounty Hunting
