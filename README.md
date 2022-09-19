@@ -96,4 +96,7 @@ Logger++ is a multithreaded logging extension for Burp Suite. This extension all
       - Check for reflected parameters 
         - ```Response.Reflections > 0```
    
+   - API Key Disclosure 
+      - ```Response.Body CONTAINS "apiKey" AND Response.Headers CONTAINS "application/javascript"```
+   
         
