@@ -1,6 +1,7 @@
 
 # Logger++ Custom Filters 
 A comprehensive list of custom filters for Logger++ to identify various vulnerabilities in different API styles
+![Logo](https://raw.githubusercontent.com/bnematzadeh/LoggerPlusPlus-API-Filters/refs/heads/main/logger%2B%2B.png)
 
 ### 1) API Styles
 - REST
